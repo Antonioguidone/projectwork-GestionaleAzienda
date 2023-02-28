@@ -1,0 +1,513 @@
+@charset "ISO-8859-1";
+
+
+
+.banner{ 
+ 
+    background-image: url("../assets/images/sfondo1.jpg"); 
+  background-size: cover; 
+  background-position: center; 
+  padding-top: 500px 0 30px 0px; 
+  position: relative; 
+  
+  height: 100%; 
+  
+
+}
+
+html {
+  scroll-behavior: smooth;
+  
+}
+
+#logo{
+	position:relative; 
+	bottom: 35px; 
+}
+
+
+
+#hme {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#3C89D8;
+    font-family: 'Oswald', sans-serif;
+     font-size: 20px;
+  
+  }
+
+  button {
+  cursor: pointer;
+  }
+  
+  
+  /*li {
+    float: left;
+  }*/
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color:#CD5C5C;
+  }
+
+
+h3 {
+    color: black;
+    align-items: center;
+    text-align:left;
+    position: relative;
+   /* left: 20px;*/
+    
+}
+
+	#slogan { 
+  text-align: center; 
+  align-items: center;  
+  position: relative;  
+  left: 5px; 
+  bottom: 120px;   
+  font-size: 35px;  
+  font-weight: bold; 
+  color:white; 
+  font-family: 'Oswald', sans-serif;   
+ }
+ 
+ #testo {
+
+    color: rgb(114, 110, 110);
+    align-items: center;
+    text-align:center;
+    position: relative;
+    left: 20px;
+     font-size: 35px;  
+    font-family: 'Oswald', sans-serif;
+}
+
+#aziendeclienti {
+    margin: 70px;
+    color: rgb(114, 110, 110);
+    align-items: center;
+    text-align:center;
+    position: relative;
+    left: 20px;
+      font-size: 35px;  
+    font-family: 'Oswald', sans-serif;
+}
+ 
+
+#bottoneaggiungiazienda{
+	 background-color:#CD5C5C;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+    margin:auto;
+    position:relative; 
+    
+    
+   
+}
+
+#bottoneaggiungipersonale{
+		 background-color:#CD5C5C;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+    margin:auto;
+    position:relative; 
+  
+}
+  
+  #bottonemostraaziende {
+  background-color:#CD5C5C;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+    margin:auto;
+    position:relative; 
+  
+    bottom: 50px;
+  }
+  
+  #bottonemostrapersonale{
+  background-color:#CD5C5C;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+    margin:auto;
+    position:relative; 
+ 
+    bottom: 50px;
+  }
+  
+  #bottonelogin{
+  background-color:#CD5C5C;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+    margin:auto;
+    position:relative; 
+    
+    
+  }
+  
+  #bottoneregistra {
+   background-color:#CD5C5C;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+    margin:auto;
+    position:relative; 
+  }
+
+  #centro {
+  	align-items: center; 
+  	text-align : center; 
+  	 color:black;
+  line-height: 45.625px; 
+
+  font-style:bold;
+  text-align:center;
+  position: relative;
+  left: 20px;
+ 
+  	
+  }
+  
+  
+
+
+
+
+
+#spiegazione {
+
+    color: rgb(114, 110, 110);
+    align-items: center;
+    text-align:center;
+    position: relative;
+    left: 20px;
+}
+
+
+#punti{ 
+ 
+    margin: auto; 
+   width: 50%; 
+   padding: 10px; 
+   position:justified; 
+   text-align: center; 
+   display: flex; 
+    justify-content: space-between; 
+    align-items:center; 
+    color: rgb(172, 169, 169); 
+     
+} 
+ 
+#uno{ 
+    position:relative; 
+    right: 5%;  
+     font-family: 'Oswald', sans-serif;
+     font-size: 20px;
+    color: black;
+  
+} 
+ #due{ 
+     position: relative; 
+     left: 1%; 
+      font-family: 'Oswald', sans-serif;
+      font-size: 20px;
+       color: black;
+         height: 61px;
+ } 
+ #tre{ 
+    position: relative; 
+    left: 4%; 
+     font-family: 'Oswald', sans-serif;
+     font-size: 20px;
+      color: black;
+      
+} 
+#quattro{ 
+    position: relative; 
+    left: 10%; 
+     font-family: 'Oswald', sans-serif;
+     font-size: 20px;
+     color: black;
+    
+}
+
+
+
+ 
+  .gallerycontainer{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    position:relative;
+    text-align: center;
+    right: 180px; 
+    display: flex;
+     justify-content: space-between;
+     align-items:center;
+     bottom: 40px;
+        
+     
+  }
+  .contact{
+    font-size: 36.5px; 
+    line-height: 45.625px; 
+    opacity: 1; 
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+      color: rgb(54, 51, 51);
+}
+    
+  
+  .wpb_wrapper {
+
+   margin: auto;
+    width: 50%;
+    padding: 10px;
+      color: rgb(54, 51, 51);
+}
+
+	thead
+  	{
+
+    background-color: lightslategrey;
+    width: 100%;
+    height: 100%;
+    max-height: table-concept-max-height;
+    overflow: auto;
+    position: relative;
+    padding-top: 400px 0 30px 0px;
+    width: 100%;
+    height: 100%;
+    max-height: table-concept-max-height;
+    overflow: auto;
+
+	}
+	table{
+    background-color: rgb(218, 211, 211);
+    padding-top: 400px 0 30px 0px;
+     width: 100%;
+    height: 100%;
+    max-height: table-concept-max-height;
+    overflow: auto;
+    
+  }
+  	th {
+  	color : white; }
+  	
+  	td {
+  	text-align: center;}
+  	
+  	#aggiungiazienda{
+
+    padding-top: 400px 0 30px 0px;
+    background-color: rgb(218, 211, 211);
+    width: 100%;
+    height: 100%;
+    max-height: table-concept-max-height;
+    overflow: auto;
+    position: relative;
+  }
+  
+  #dettaglioazienda {
+  	 background-color: rgb(218, 211, 211);
+  }
+  
+  #dettagliopersonale {
+  	 background-color: rgb(218, 211, 211);
+  }
+  
+  #titolo {
+  background-color: rgb(218, 211, 211);
+  }
+  
+  #personaleazienda {
+  	 background-color: rgb(218, 211, 211);
+
+  }
+  
+  #ciao {
+  	 background-color: rgb(218, 211, 211);
+  }
+
+  input{
+
+    padding-top: 400px 0 30px 0px;
+    background-color: rgb(218, 211, 211);
+  }
+  
+  select {
+  background-color: rgb(218, 211, 211);
+  }
+  
+  #aggiungidipendente {
+  	padding-top: 400px 0 30px 0px;
+    background-color: rgb(218, 211, 211);
+    width: 100%;
+    height: 100%;
+    max-height: table-concept-max-height;
+    overflow: auto;
+    position: relative;
+  	
+  }
+  
+  #maps{
+  margin: auto;
+ 	 
+  padding: 10px;
+  position:relative;
+  text-align: left;
+  left:300px;
+  display: flex;
+   justify-content: space-between;
+   align-items:left;
+   bottom:500px;
+    
+}
+#container-footer {
+	margin-bottom: auto; 
+}
+
+.copyright{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3C89D8;
+  align-items: center; 
+  flex-shrink: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+#foot {
+    color: black;
+    text-align:left;
+    position: relative;
+    font-size: 20px;
+    color:white; 
+  	font-family: 'Oswald', sans-serif;
+  	height: 1px; 
+    right: 28.5%;
+}
+
+
+#focuslogin{
+	 text-align: center;
+	
+}
+
+#fontlogin{
+  font-weight: bold; 
+  color:black; 
+  font-family: 'Oswald', sans-serif; 
+}
+
+#container-body {
+	margin: auto;
+	height: 100%;
+	width: auto;
+}	
+
+
+.modal {
+
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 5.5%;
+    width: 25%;
+    /* height: 11.5%; */
+    overflow: auto;
+    background-color: white;
+    background-color: indianred;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: flex-start;
+    margin-left: 38%;
+	border-style: solid;
+    border-width: thin;
+    border-color: black;
+    font-family: 'Oswald', sans-serif; 
+    font-size: 20px;
+}
+
+#login {
+	font-family: 'Oswald', sans-serif; 
+}
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#containermodal{
+	width: 100%
+}
+
+.stile{
+	font-family: 'Oswald', sans-serif; 
+}
+
+
+  	

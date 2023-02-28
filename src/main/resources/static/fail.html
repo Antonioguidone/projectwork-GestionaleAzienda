@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>NOPLAY</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<link rel="icon" type="image/png" href="./icons/favicon.png">
+<link rel="stylesheet" href="./css/style.css">
+<script src="jquery-3.6.0.min.js"></script>
+<script src="main.js"></script>
+<style>@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');</style>
+</head>
+<body>
+
+
+ 
+ <div id=containermodal>
+  <div id="credenzialierrate" class="modal">
+  <span class="close" id="close-detail"><a href="/index.html"><i class='fas fa-times' style="color: black;"></i></a></span>
+  <p>CREDENZIALI ERRATE</p>
+  </div>
+	</div>
+	
+
+	<ul id="hme">
+  		<li style="float:left"><a href="/index.html">Chi siamo</a></li>
+		  <li style="float:left"><a href="#container-body">Servizi</a></li>
+		  <li style="float:left"><a href="#container-body" id="signup">Lavora con noi</a></li>
+ 		  <li style="float:right"><a class="active" href="#container-body" id="login"><i class='fas fa-user-alt'> Login</i></a></li>
+   	</ul>
+   	<hr>
+   
+<div id="container-header">
+	 
+	
+	<div class="banner"> 
+		<div id="centro"> 
+            <a href="/index.html" id="home">
+    		<img src="assets/images/NOPLAYNEW.png" alt="Noplay" id="logo">
+  			</a>
+            	<h3 id="slogan">La consulenza a portata di un click</h3>
+            	<br> 
+	            <h3 id="slogan">Professionisti nel ramo della consulenza informatica, <br> soluzioni all'avanguardia per la gestione delle aziende <br> e del personale <br></h3>
+	            
+	            <a href='#container-body' id='mostra-aziende'><button id="bottonemostraaziende"> AZIENDE </button></a> 
+	            <a href='#container-body' id='mostra-personale'><button id="bottonemostrapersonale">PERSONALE</button></a>
+           		
+     </div>
+	</div>
+
+<hr style="width: 100%">
+</div>
+
+<a href='#container-body' id="mostra-aggiungi-azienda"><button id="bottoneaggiungiazienda">Aggiungi Azienda</button></a>
+<a href='#container-body' id="mostra-aggiungi-personale"><button id="bottoneaggiungipersonale">Aggiungi Personale</button></a>
+
+
+<div id="container-body"> 
+
+	 
+    <div id="lav"> 
+     <h2 id="testo"> Processo Aziendale </h2> 
+      
+    <style type="text/css">div.circle{ float:left; margin-left:5%; }</style> 
+ <div class="circle" style="width:70px;height:70px;background-color:#00008B; 
+       border-radius: 70%; 
+       display: flex; 
+    position:relative; 
+    left:20%; 
+        justify-content: space-between; 
+        align-items:center;" ><i class='far fa-handshake' style='font-size:46px;color:silver;position: relative;left:6px;'></i></div> 
+ <div class="circle" style="width:70px;height:70px;background-color:#4040a8; 
+       border-radius: 70%; 
+       display: flex; 
+    position:relative; 
+    left:26%; 
+        justify-content: space-between; 
+        align-items:center; "><i class='far fa-edit' style='font-size:46px;color:silver;position: relative;left:11px;'></i></div> 
+ <div class="circle" style="width:70px;height:70px;background-color:#6666b9; 
+       border-radius: 70%; 
+       display: flex; 
+    position:relative; 
+    left:32%; 
+        justify-content: space-between; 
+        align-items:center; "><i class='fas fa-users' style='font-size:46px;color:silver;position: relative;left:6px;'></i></div> 
+ <div class="circle" style="width:70px;height:70px;background-color:#9999d1; 
+       border-radius: 70%; 
+       display: flex; 
+    position:relative; 
+    left:38.5%; 
+        justify-content: space-between; 
+        align-items:center; 
+         "><i class='fas fa-flag-checkered' style="color:silver; font-size: 46px;position: relative;left:13px;" ></i></div> 
+ <div style="clear:both;" /></div> 
+  
+ <div id="punti"> 
+  
+ 
+  <p id="uno">Inizio collaborazione con l'azienda cliente </p> 
+  
+    <p id="due"> Valutazione e presa in carico della richiesta dell'azienda cliente </p> 
+  
+  
+  
+  <p id="tre"> Elaborazione di possibili soluzioni da parte di un team di esperti  </p> 
+  
+  
+   
+   <p id="quattro"> Consegna dell'output desiderato dal cliente</p> 
+  
+ </div>
+ <hr>
+ <h2 id="aziendeclienti">Aziende Clienti</h2>
+ 
+ <div class="gallerycontainer">
+ 
+  	<a href="#personaleazienda" class='dettaglioazienda' data-id='1' >
+    	<img src="assets/images/THOUGHLAB.jpg" alt="Thoughlab" width="200px" height="200px" hspace="15" >
+  	</a>
+   
+   
+   
+  	<a href="#personaleazienda" class='dettaglioazienda' data-id='4'>
+    	<img src="assets/images/ZOOMZONE.jpg" alt="Zoomzone" width="200px" height="200px" hspace="15">
+  	</a>
+   
+   
+   
+  	<a href="#personaleazienda" class='dettaglioazienda' data-id='5' >
+    	<img src="assets/images/DEVSHARE.jpg" alt="Devshare" width="200px" height="200px" hspace="15">
+  	</a>
+   
+   
+   
+  <a href="#personaleazienda" class='dettaglioazienda' data-id='2'>
+    <img src="assets/images/GABCUBE.jpg" alt="Gabcube" width="200px" height="200px" hspace="15" >
+  </a>
+   
+   
+  <a href="#personaleazienda" class='dettaglioazienda' data-id='3'>
+    <img src="assets/images/TAGFEED.jpg" alt="Tagfeed" width="200px" height="200px" hspace="15">
+  </a>
+   
+
+ </div>
+
+
+</div>
+
+</div>
+	<div id="dettaglioazienda" style="padding-left: 1%">
+	</div>
+	<div id="ciao">
+	<h3 id="titolo" style="display: none"><strong>Dipendenti</strong></h3>
+	<ul id="personaleazienda">
+	</ul>
+	<div id="aggiungiazienda">
+
+</div>
+
+<div id="aggiungidipendente">
+
+</div>
+</div>
+	
+
+<div id="dettagliopersonale">
+</div>
+<br>
+<hr class ="copyright">
+<div class ="copyright">
+
+ <a href="/index.html" id="foot">No Play</a>
+ <span><strong>Sede: 
+    </strong>Via Alessandro Manzoni, 78 Milano </span>
+    <span><strong>Centralino: </strong>
+    Tel. +39 019 8743258</span>
+    <span>Email: <a href="mailto:info@noplay.it">mailto:info@noplay.it</a></span>
+ <p>@Copyright</p>
+	</div>
+
+
+
+
+
+</body>
+</html>

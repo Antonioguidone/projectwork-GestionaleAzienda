@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>Aggiungi Azienda</title>
+</head>
+<body>
+<div id="aggiungiazienda" class="stile">
+	<input type="hidden" name="id">
+	<p >Ragione Sociale</p>
+	<input type="text" id="ragione_sociale" placeholder="Ragione Sociale..." required>
+	<p>P. Iva</p>
+	<input type="text" id="partita_iva" maxlength="10" pattern="([0-9]|[0-9]|[0-9]|[0-9]|[0-9]|[0-9]|[0-9]|[0-9]|[0-9]|[0-9])" placeholder="P. Iva..." required>
+	<p>Indirizzo</p>
+	<input type="text" id="indirizzo" placeholder="Indirizzo..." required>
+	<p>Email</p>
+	<input type="email" id="email" placeholder="Email..." required>
+	<p>Telefono</p>
+	<input type="tel" id="n_telefono" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Telefono..." required>
+	<br><br>
+	<button id="add-azienda">Aggiungi</button>
+</div>
+</body>
+</html>
